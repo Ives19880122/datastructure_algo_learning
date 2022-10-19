@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import com.ives.learning.algo.sorting.BubbleSort;
 import com.ives.learning.algo.sorting.GnomeSort;
 import com.ives.learning.algo.sorting.InsertionSort;
+import com.ives.learning.algo.sorting.MergeSort;
 import com.ives.learning.algo.sorting.SearchingSort;
 import com.ives.learning.algo.sorting.SelectionSort;
 import com.ives.learning.algo.sorting.Sorting;
@@ -57,5 +58,8 @@ public class SortingTest {
         testSortFn(new InsertionSort());
     }
 
-
+    @Test
+    public void testMergeSort(){
+        testSortFn(new MergeSort());
+    }
 }
