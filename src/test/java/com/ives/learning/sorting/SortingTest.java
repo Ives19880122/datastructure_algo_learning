@@ -8,6 +8,7 @@ import com.ives.learning.algo.sorting.BubbleSort;
 import com.ives.learning.algo.sorting.GnomeSort;
 import com.ives.learning.algo.sorting.InsertionSort;
 import com.ives.learning.algo.sorting.MergeSort;
+import com.ives.learning.algo.sorting.QuickSort;
 import com.ives.learning.algo.sorting.SearchingSort;
 import com.ives.learning.algo.sorting.SelectionSort;
 import com.ives.learning.algo.sorting.Sorting;
@@ -61,5 +62,10 @@ public class SortingTest {
     @Test
     public void testMergeSort(){
         testSortFn(new MergeSort());
+    }
+
+    @Test
+    public void testQuickSort(){
+        testSortFn(new QuickSort());
     }
 }

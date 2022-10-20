@@ -1,5 +1,11 @@
 package com.ives.learning.algo.sorting;
 
+/**
+ * 氣泡排序法:
+ * 外圈迴圈逐步向右
+ * 遇到大小順序不符合的交換
+ * 時間複雜度O(N^2) 空間複雜度O(1)
+ */
 public class BubbleSort implements Sorting{
 
     @Override

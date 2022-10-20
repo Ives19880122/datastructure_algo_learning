@@ -2,6 +2,13 @@ package com.ives.learning.algo.sorting;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * 地精排序:
+ * 氣泡排序強化版
+ * 特色只有一個迴圈
+ * 1. 遇到排序正常則往右++
+ * 2. 遇到排序交換則在交換後--
+ */
 @Slf4j
 public class GnomeSort implements Sorting{
     @Override

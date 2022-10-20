@@ -1,7 +1,11 @@
 package com.ives.learning.algo.sorting;
 
-import lombok.extern.slf4j.Slf4j;
-
+/**
+ * MergeSort
+ * 1. 把陣列切成左右兩個
+ * 2. 遞迴切到最小
+ * 3. 進行合併排序
+ */
 public class MergeSort implements Sorting{
 
     @Override
